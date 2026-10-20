@@ -1,0 +1,21 @@
+// GitOps deployment is managed by Argo CD.
+// The root Jenkinsfile runs CI checks and validates Kubernetes manifests.
+// Do not edit manifests, push images, or commit generated changes from this file.
+pipeline {
+    agent any
+
+    stages {
+        stage('GitOps Ownership Check') {
+            steps {
+                sh '''
+                    set -eu
+                    test -f kubernetes/backend.yaml
+                    test -f kubernetes/frontend.yaml
+                    test -f kubernetes/mongodb.yaml
+                    test -f kubernetes/redis.yaml
+                    echo "GitOps manifests are present."
+                '''
+            }
+        }
+    }
+}

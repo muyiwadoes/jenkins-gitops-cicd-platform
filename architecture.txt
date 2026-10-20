@@ -1,0 +1,68 @@
+                 ┌──────────────────────────┐
+                 │            DEVELOPER        	     │			
+                 │  	Code / Dockerfiles / TF      │		
+                 │  	  Kubernetes manifests       │			
+                 └─────────── ┬─────────────┘
+				  |
+                              	  ▼
+                 ┌──────────────────────────┐
+                 │     	  GITHUB REPOSITORY    	     │
+                 │           branch: main     	     │
+                 │                          	     │
+                 │  	     Source code             │
+                 │  	     Jenkinsfile       	     │
+                 │  	  Kubernetes manifests       │
+                 │  	Terraform configuration	     │
+                 └─────────── ┬─────────────┘
+                              	  │
+                  ┌───────────┴────────────┐
+                  ▼                                ▼
+       ┌─────────────────────┐  ┌─────────────────────┐
+       │   JENKINS PIPELINE  	    │  │       	   ARGO CD           │
+       │           	            │  │      	                     │
+       │ 	1. Checkout/Inspect │  │ 	Monitors GitHub      │
+       │ 	2. Backend tests    │  │ 	path: kubernetes     │
+       │ 	3. Frontend build   │  │ 	branch: main         │
+       │ 	4. Manifest dry-run │  │        	             │
+       │ 	5. Dependency audits│  │ 	Manual sync          │
+       │ 	6. Archive outputs  │  │ 	Auto-sync disabled   │
+       └─────────────────────┘  └──────────┬──────────┘
+                                           │
+                                           ▼
+                 ┌─────────────────────────────────────┐
+                 │       	MINIKUBE KUBERNETES CLUSTER	    │
+                 │             		                            │
+                 │          	   Namespace: wanderlust  	    │
+                 │                                     		    │
+                 │  ┌───────────────────────────────┐	 │
+ User/Browser ──►│ │			 FRONTEND                        │  	 │
+ NodePort 31000  │  │ 		React application              │   │
+                 │  └──────────────┬────────────────┘   │
+                 │                 	│ API requests      	   │
+                 │                 	▼                          │
+                 │  ┌───────────────────────────────┐   │
+                 │  │ 		BACKEND                        │   │
+                 │  │ 		Node.js / Express API          │   │
+                 │  │ 		NodePort 31100                 │   │
+                 │  └──────────┬───────────┬────────┘   │
+                 │                │               │           	   │
+                 │                ▼               ▼           	   │
+                 │  ┌────────────────┐ ┌─────────────┐  │
+                 │  │        MONGODB      │ │         REDIS    │  │
+                 │  │        Database     │ │        Service   │  │ 
+                 │  │        PVC storage  │ │                  │  │
+                 │  └────────────────┘ └─────────────┘   │
+                 │                                     │
+                 └─────────────────────────────────────┘
+
+
+       ┌─────────────────────────────────────────────── ┐
+       │       		NOT YET VERIFIED / NOT IMPLEMENTED       	│
+       │                                                		│
+       │  		• Automated Docker image publishing             │
+       │ 	        • Trivy image vulnerability scanning            │
+       │  		• OWASP Dependency-Check                        │
+       │  		• SonarQube code analysis                       │
+       │  		• Automatic GitOps image-tag updates            │
+       │  		• AWS EKS deployment                          	│
+       └────────────────────────────────────────────────┘

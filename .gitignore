@@ -1,0 +1,51 @@
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!backend/.env.sample
+!**/.env.sample
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+**/dist/
+**/build/
+**/coverage/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+*.tmp
+*.swp
+.DS_Store
+
+# Terraform state, cache, plans, and local variables
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local Kubernetes and tool data
+.minikube/
+.kube/
+
+# Local recovery backups
+/backups/
+README.md.before-assets-fix-*
+
+*.audit-backup

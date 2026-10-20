@@ -1,0 +1,15 @@
+.git
+.git/**
+**/node_modules
+**/coverage
+**/dist
+**/build
+**/.env
+**/.env.*
+!**/.env.sample
+**/*.log
+**/.DS_Store
+**/.terraform
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfplan

@@ -1,0 +1,181 @@
+[
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e9161b"
+    },
+    "authorName": "Idowu Muyiwa",
+    "title": "Maldives Escape: Blue Waters, White Sands and Island Life",
+    "imageLink": "https://i.ibb.co/3z72vmc/clean-lake-mountains-range-trees-nature-4k.webp",
+    "categories": [
+      "Travel",
+      "Beaches"
+    ],
+    "description": "A look at the Maldives, where clear turquoise water, white-sand beaches and vibrant marine life make island travel memorable. Explore ideas for planning a coastal escape, from choosing an island to enjoying the water and local surroundings.",
+    "isFeaturedPost": true,
+    "timeOfPost": {
+      "$date": "2026-10-15T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e9161c"
+    },
+    "authorName": "Idowu Muyiwa",
+    "title": "Lagos After Dark: The City That Never Sits Still",
+    "imageLink": "https://i.ibb.co/y8vQnDc/c4fedab1-4041-4db5-9245-97439472cf2c.webp",
+    "categories": [
+      "Travel",
+      "City",
+      "Night"
+    ],
+    "description": "Lagos takes on a different character after sunset. From illuminated roads and waterfront views to late-night food spots and entertainment districts, explore the energy of the city and ideas for experiencing it responsibly.",
+    "isFeaturedPost": true,
+    "timeOfPost": {
+      "$date": "2026-10-12T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e9161d"
+    },
+    "authorName": "Kushimo Fadil",
+    "title": "Zanzibar: Planning Your Next Nature Adventure",
+    "imageLink": "https://i.ibb.co/d0g42nr/FPO-BOR-100-800x600.webp",
+    "categories": [
+      "Travel",
+      "Adventure",
+      "Nature"
+    ],
+    "description": "Outdoor travel offers a chance to step away from crowded streets and reconnect with nature. Explore hiking, camping and scenic landscapes, with practical reminders about preparation, weather, safety and protecting the environment.",
+    "isFeaturedPost": true,
+    "timeOfPost": {
+      "$date": "2026-10-08T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e9161e"
+    },
+    "authorName": "Sarah Bennett",
+    "title": "London in Focus: Historic Landmarks and Modern City Life",
+    "imageLink": "https://i.ibb.co/BNjv5Nn/London-Skyline-125508655.webp",
+    "categories": [
+      "Travel",
+      "City",
+      "Landmarks"
+    ],
+    "description": "London brings centuries of history together with a changing modern skyline. From Big Ben and the London Eye to riverside walks and contemporary architecture, discover places worth exploring and ways to plan a rewarding city visit.",
+    "isFeaturedPost": true,
+    "timeOfPost": {
+      "$date": "2026-10-04T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e9161f"
+    },
+    "authorName": "Michael Adeyemi",
+    "title": "Quiet Places, Clear Minds: Finding Calm in Nature",
+    "imageLink": "https://i.ibb.co/d0g42nr/FPO-BOR-100-800x600.webp",
+    "categories": [
+      "Nature",
+      "Scenic",
+      "Tranquil"
+    ],
+    "description": "Not every trip needs a packed itinerary. Forest paths, quiet lakes and open countryside offer a slower kind of travel. Discover ideas for a restorative nature break and learn to appreciate the small details that make a landscape memorable.",
+    "isFeaturedPost": true,
+    "timeOfPost": {
+      "$date": "2026-09-28T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e91620"
+    },
+    "authorName": "Olivia Carter",
+    "title": "Chasing the Golden Hour: Coastal Sunsets Worth Slowing Down For",
+    "imageLink": "https://i.ibb.co/52mk2Yq/sunset-pier.webp",
+    "categories": [
+      "Travel",
+      "Beaches",
+      "Sunset"
+    ],
+    "description": "As daylight fades, the coast becomes a study in changing colours, reflections and silhouettes. Learn how to plan a sunset outing, find a good viewpoint, take better photographs and enjoy the shoreline responsibly.",
+    "isFeaturedPost": false,
+    "timeOfPost": {
+      "$date": "2026-09-20T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e91621"
+    },
+    "authorName": "Simeon Ogbadu",
+    "title": "The City Comes Alive: Exploring Urban Nights",
+    "imageLink": "https://i.ibb.co/KLwfZzG/Maldives-1024x767.webp",
+    "categories": [
+      "Travel",
+      "City",
+      "Night"
+    ],
+    "description": "Night-time city exploration reveals another side of urban life, from street food and illuminated landmarks to music and evening markets. Use these ideas to plan an enjoyable outing while considering transport and personal safety.",
+    "isFeaturedPost": false,
+    "timeOfPost": {
+      "$date": "2026-09-14T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e91622"
+    },
+    "authorName": "Amara Nwosu",
+    "title": "Mountain Trails: Preparing for the Journey Up",
+    "imageLink": "https://i.ibb.co/qxFMj1H/sunset-horizon-clean-sky-nature.webp",
+    "categories": [
+      "Travel",
+      "Adventure",
+      "Mountains"
+    ],
+    "description": "Mountain travel rewards preparation as much as determination. Consider route difficulty, weather, footwear, hydration and local guidance before setting out. The best adventure leaves room to enjoy the landscape safely.",
+    "isFeaturedPost": false,
+    "timeOfPost": {
+      "$date": "2026-09-07T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e91623"
+    },
+    "authorName": "Ethan Brooks",
+    "title": "History in Every Stone: Exploring Places That Tell a Story",
+    "imageLink": "https://i.ibb.co/d0g42nr/FPO-BOR-100-800x600.webp",
+    "categories": [
+      "Travel",
+      "History",
+      "Landmarks"
+    ],
+    "description": "Historic sites preserve traces of the people and events that shaped a place. Explore heritage travel with curiosity, learn from local interpretation and help protect important sites for future visitors.",
+    "isFeaturedPost": false,
+    "timeOfPost": {
+      "$date": "2026-08-30T09:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653441167c11e03b70e91624"
+    },
+    "authorName": "Grace Thompson",
+    "title": "A Forest Reset: Slowing Down Among the Trees",
+    "imageLink": "https://i.ibb.co/KLwfZzG/Maldives-1024x767.webp",
+    "categories": [
+      "Nature",
+      "Forests",
+      "Retreat"
+    ],
+    "description": "A forest retreat can be a simple way to change pace and pay attention to nature. Explore gentle walks, wildlife observation and low-impact outdoor breaks while respecting marked paths, plants and animals.",
+    "isFeaturedPost": false,
+    "timeOfPost": {
+      "$date": "2026-08-22T09:00:00.000Z"
+    }
+  }
+]
